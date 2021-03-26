@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COuntdown page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <div class="container gap">
+        <h1> Finally we are here for what we were</h1>
+        <div id="countdown">
+            <div class="days dg wow animate fadeInLeft" data-wow-duration="1s" id="d"></div>
+            <div class="hours dg wow animate fadeInDown" data-wow-duration="1.4ss" id="h"></div>
+            <div class="minutes dg wow animate fadeInUp" data-wow-duration="1.9s" id="m"></div>
+            <div class="seconds dg wow animate fadeInRight" data-wow-duration="2.6s" id="s"></div>
+        </div>
+    </div>
+    <script src="wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    
+    <script src="./script.js"></script>
+    
+    <script>
+        new WOW().init();
+        </script>
+</body>
+</html>
